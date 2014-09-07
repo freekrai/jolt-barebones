@@ -1,0 +1,21 @@
+{
+	"name": "freekrai/jolt-barebones",
+	"description": "A Jolt Framework skeleton application for rapid development of Jolt apps",
+	"keywords": ["microframework","rest","router","jolt"],
+	"homepage": "http://github.com/freekrai/jolt-skeleton",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Roger Stringer",
+			"email": "roger@rogerstringer.com",
+			"homepage": "http://www.rogerstringer.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"pusher/pusher-php-server": "dev-composer",
+		"freekrai/simperium-php": "dev-master",
+		"gregwar/image": "dev-adapter",
+		"jolt/jolt": "dev-master"
+	}
+}
