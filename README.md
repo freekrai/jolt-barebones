@@ -29,17 +29,3 @@ You can run your new app locally using the following command in the terminal:
 	php -S localhost:8888 server.php
 	
 This will route all processes through the server.php file, which whill then treat this the same as if it was on a web server. This lets you handle local development nicely.
-
-## Structure
-
-The Twilio Barebones Application comes complete with a few pieces already in place.
-
-1. SQLite database located in content/data/data.sqlite, this database holds user information, it also has a post table for doing whatever else you may want it to do.
-
-2. Views, all output is handled by the views folder located in content/views/ the filenames correspond to actions used by the system.
-
-3. User system, you can quickly set up a user system with the /signup, /login and /dashboard actions that are already set up. Once logged in, you will also see a user dashboard and the ability to manage other users.
-
-You can keep these, or remove them at your leisure, I just fiind it easier to get going when you already have something to work with. 
-
-Enjoy :)
