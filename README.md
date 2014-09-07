@@ -26,6 +26,6 @@ With PHP 5.4 and up, we have a built-in web server, this is handy for local deve
 
 You can run your new app locally using the following command in the terminal:
 
-	php -S localhost:8888 server.php
+	php -S 127.0.0.1:8888 server.php
 	
 This will route all processes through the server.php file, which whill then treat this the same as if it was on a web server. This lets you handle local development nicely.
