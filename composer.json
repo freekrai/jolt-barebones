@@ -13,9 +13,6 @@
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"pusher/pusher-php-server": "dev-composer",
-		"freekrai/simperium-php": "dev-master",
-		"gregwar/image": "dev-adapter",
 		"jolt/jolt": "dev-master"
 	}
 }
