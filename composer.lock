@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "323596032c15904fec977202e7649126",
+    "packages": [
+        {
+            "name": "jolt/jolt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/freekrai/jolt.git",
+                "reference": "3198717f79934a4b60efff98e8d90725c36ddd7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/freekrai/jolt/zipball/3198717f79934a4b60efff98e8d90725c36ddd7a",
+                "reference": "3198717f79934a4b60efff98e8d90725c36ddd7a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Jolt": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roger Stringer",
+                    "email": "roger@rogerstringer.com",
+                    "homepage": "http://www.rogerstringer.com/"
+                }
+            ],
+            "description": "Jolt Framework, a PHP micro framework",
+            "homepage": "http://github.com/freekrai/Jolt",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2014-08-27 19:43:44"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "jolt/jolt": 20
+    },
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
